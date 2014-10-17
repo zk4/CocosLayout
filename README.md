@@ -63,9 +63,17 @@ there are mainly  7 type of layout command,and will satisfied most circumstance
     purple ->setScale  (.5f);
     addChild (purple);
     _CENTER (  white, purple, {0,0}, {1,1});
+
+ //if you wanna debug where the btn is,try  _DEBUG_LAYOUT
+    auto btn = CCSprite::create ("2.png");
+    addChild (btn);
+    _CENTER (this, btn, { 2, 0 }, {.5f,.5f});
+    btn->setVisible (false);
+    _DEBUG_LAYOUT (btn);
     
 ```
 
 some of the child node doesn`t have the right ContentSize,like *CCScrollView*,*CCLabelTTF*,I already make compatiable in GetContentSize function.If you encounter any other type donesn`t get right ContentSize.do the same as I did in GetContentSize function in layout2.cpp
+
 #DEMO
  see demo HelloWorldScene.cpp
