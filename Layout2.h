@@ -32,7 +32,8 @@ class DebugDrawLayer : public CCLayer
 public:
     static int s_id;
 
-    struct _AdvancedRect {
+    struct _AdvancedRect
+    {
 
         int stack_count;
         CCRect r;
@@ -61,7 +62,8 @@ private:
 class Layout2
 {
 public:
-    enum eAlign {
+    enum eAlign
+    {
         LEFT = 1,
         RIGHT = 1 << 1,
         CENTER = 1 << 2,
@@ -87,6 +89,6 @@ public:
     static void GetWorldRect ( CCNode* n, CCRect& o_rect/*out*/ );
     static void __DebugLayout ( CCNode* n );
     static CCSize GetContentSize ( CCNode* n );
-    static void DrawSpace ( CCNode* _target );
+
 };
 
