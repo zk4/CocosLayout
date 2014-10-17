@@ -1,7 +1,7 @@
 CocosLayout
 ===========
 #DEMO
- see demo HelloWorldScene.cpp
+
  ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo.png)
  
 make it easy to layout ccnode in cocos2d-x
