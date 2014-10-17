@@ -1,15 +1,10 @@
 
 #include "Layout2.h"
 #include "cocos2d.h"
-
 #include <assert.h>
 
-#include "spine/spine-cocos2dx.h"
-
-
-
 using namespace cocos2d;
-using namespace cocos2d::extension;
+ 
 
 CCSize Layout2::GetContentSize ( CCNode* n )
 {
