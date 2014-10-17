@@ -76,6 +76,6 @@ there are mainly  7 type of layout command,and will satisfied most circumstance
     
 ```
 
-some of the child node doesn`t have the right ContentSize,like *CCScrollView*,*CCLabelTTF*,I already make compatiable in GetContentSize function.If you encounter any other type donesn`t get right ContentSize.do the same as I did in GetContentSize function in layout2.cpp
+some of the child node does not have the right ContentSize,like *CCScrollView*,*CCLabelTTF*,I already make compatiable in GetContentSize function.If you encounter any other type does not get right ContentSize.do the same as I did in GetContentSize function in layout2.cpp
 
 
