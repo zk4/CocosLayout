@@ -1,6 +1,5 @@
 
 #include "Layout2.h"
-#include "cocos2d.h"
 #include <assert.h>
 
 using namespace cocos2d;
