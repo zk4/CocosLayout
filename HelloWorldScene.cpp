@@ -27,13 +27,13 @@ bool HelloWorld::init()
         return false;
     }
 
-    //make sprite in center of the layer
+    //make white in center of the layer
     auto white=CCSprite::create ("1.png");
     addChild (white);
     _CENTER (this, white);
 
 
-    //make sprite1 in right bottom corner  of the sprite
+    //make red in right bottom corner  of the sprite
 
     auto red = CCSprite::create ("1.png");
     red->setColor ({ 255, 0, 0 });
