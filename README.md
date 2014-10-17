@@ -69,3 +69,4 @@ there are mainly  7 type of layout command,and will satisfied most circumstance
 some of the child node doesn`t have the right ContentSize,like *CCScrollView*,*CCLabelTTF*,I already make compatiable in GetContentSize function.If you encounter any other type donesn`t get right ContentSize.do the same as I did in GetContentSize function in layout2.cpp
 #DEMO
  see demo HelloWorldScene.cpp
+ ![demo](https://github.com/cubase01/CocosLayout/blob/master/1.png)
