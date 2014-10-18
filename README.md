@@ -1,19 +1,28 @@
 CocosLayout
 ===========
 #DEMO
-##left 
- ![demo](https://github.com/cubase01/CocosLayout/blob/master/left.png)
-##right 
- ![demo](https://github.com/cubase01/CocosLayout/blob/master/right.jpg)
-##middle
- ![demo](https://github.com/cubase01/CocosLayout/blob/master/middle.png)
-##between
- ![demo](https://github.com/cubase01/CocosLayout/blob/master/between.jpg)
-##mix
- ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo.png)
- 
-make it easy to layout ccnode in cocos2d-x
+##red block left to white left 
+ ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/left.png)
+ ##red block right to white left 
+ ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/left3.png)
+ ##red block right to white left then move left 40 points 
+ ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/left4.png)
 
+ ##middle to left  
+ ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/left2.png)
+
+##right 
+ ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/right.jpg)
+##middle
+ ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/middle.png)
+##between
+ ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/between.jpg)
+##mix
+ ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/demo.png)
+ 
+Ignore Hierarchies of nodes. make it easy to layout CCNodes in cocos2d-x.
+
+ 
 #USE
 include "Layout2.h" 
 
