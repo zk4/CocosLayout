@@ -27,13 +27,13 @@ bool HelloWorld::init()
         return false;
     }
 
-    //make sprite in center of the layer
+    //make white in center of the layer
     auto white=CCSprite::create ("1.png");
     addChild (white);
     _CENTER (this, white);
 
 
-    //make sprite1 in right bottom corner  of the sprite
+    //make red in right bottom corner  of the sprite
 
     auto red = CCSprite::create ("1.png");
     red->setColor ({ 255, 0, 0 });
@@ -70,14 +70,4 @@ bool HelloWorld::init()
 }
 
 
-void HelloWorld::menuCloseCallback (CCObject* pSender)
-{
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_WINRT) || (CC_TARGET_PLATFORM == CC_PLATFORM_WP8)
-    CCMessageBox ("You pressed the close button. Windows Store Apps do not implement a close button.","Alert");
-#else
-    CCDirector::sharedDirector()->end();
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-    exit (0);
-#endif
-#endif
-}
+ 

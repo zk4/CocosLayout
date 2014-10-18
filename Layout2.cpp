@@ -1,12 +1,6 @@
 
 #include "Layout2.h"
-
-
 #include <assert.h>
-
-
-using namespace cocos2d;
-
 
 CCSize Layout2::GetContentSize ( CCNode* n )
 {
