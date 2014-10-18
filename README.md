@@ -6,9 +6,9 @@ CocosLayout
 ##right 
  ![demo](https://github.com/cubase01/CocosLayout/blob/master/right.jpg)
 ##middle
- ![demo](https://github.com/cubase01/CocosLayout/blob/master/middle.jpg)
-##center
- ![demo](https://github.com/cubase01/CocosLayout/blob/master/center.jpg)
+ ![demo](https://github.com/cubase01/CocosLayout/blob/master/middle.png)
+##between
+ ![demo](https://github.com/cubase01/CocosLayout/blob/master/between.jpg)
 ##mix
  ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo.png)
  
