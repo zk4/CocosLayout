@@ -1,29 +1,29 @@
 CocosLayout
 ===========
-#DEMO
-##red block left to white left  
+# DEMO
+## red block left to white left  
 ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/left.png)
-##red block right to white left  
+## red block right to white left  
 ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/left3.png)
-##red block right to white left then move left 40 points  
+## red block right to white left then move left 40 points  
 ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/left4.png)
 
-##middle to left  
+## middle to left  
 ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/left2.png)
 
-##right 
+## right 
 ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/right.jpg)
-##middle
+## middle
 ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/middle.png)
-##between
+## between
 ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/between.jpg)
-##mix
+## mix
 ![demo](https://github.com/cubase01/CocosLayout/blob/master/demo/demo.png)
  
 Ignore Hierarchies of nodes. make it easy to layout CCNodes in cocos2d-x.
 
  
-#USE
+# USE
 include "Layout2.h" 
 
 there are mainly  7 type of layout command,and will satisfied most circumstance
